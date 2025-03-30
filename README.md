@@ -13,7 +13,7 @@ This roadmap provides a structured approach to learning telecom security from fu
 | 1️⃣ | Telecom Architecture Basics | ⬜ Not Started | [telco-sec.com](https://www.telco-sec.com/) | Documentation improvements |
 | 1️⃣ | Essential Security Concepts | ⬜ Not Started | [telco-sec.com](https://www.telco-sec.com/) | Beginner guides |
 | 1️⃣ | Setup Learning Environment | ⬜ Not Started | [Linux Tools](https://www.telco-sec.com/) | Setup scripts & tutorials |
-| 2️⃣ | SIM Card Security | ⬜ Not Started | [01-sim-esim](https://www.telco-sec.com/) | Lab examples |
+| 2️⃣ | SIM Card Security | ⬜ Not Started | [01-sim-esim](https://github.com/TelcoSec/SIM-eSIM-Security-Research) | Lab examples |
 | 2️⃣ | Baseband Security | ⬜ Not Started | [02-basebands](https://www.telco-sec.com/) | Hardware recommendations |
 | 2️⃣ | Mobile Device Internals | ⬜ Not Started | [03-mobile-internals](https://www.telco-sec.com/) | Device testing guides |
 | 3️⃣ | Radio Access Network Security | ⬜ Not Started | [04-ran](https://www.telco-sec.com/) | SDR examples |
