@@ -340,6 +340,7 @@ Rate your knowledge in each area to identify where to focus:
 - **Tools**: [telco-sec.com/tools](https://www.telco-sec.com/)
 - **Community**: [telco-sec.com/community](https://www.telco-sec.com/)
 - **Telecommunications Research Toolkit**: [github.com/TelcoSec/Telecommunications-Research-Toolkit](https://github.com/TelcoSec/Telecommunications-Research-Toolkit) – open-source tools for telecom protocol analysis and research
+- **TelcoSec Blog**: [blog.telco-sec.com](https://blog.telco-sec.com/) – tutorials, guides, and the latest telecom security research
 
 ## ⚠️ Responsible Disclosure
 
