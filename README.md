@@ -1,3 +1,5 @@
+![Project Cover](images/Cover.jpg)
+
 # Telecom Security Learning Roadmap
 
 A comprehensive guide to learning telecom security based on the [telco-sec.com](https://www.telco-sec.com/) project structure.
@@ -30,6 +32,8 @@ This roadmap provides a structured approach to learning telecom security from fu
 - Learn mobile network architecture (2G/3G/4G/5G)
 - Understand protocol stacks and signaling
 - Study the role of key components (SIM, baseband, RAN, core network)
+
+![Telecom Security Framework](images/Telecom Security Framework.jpg)
 
 **Tools:**
 - [TelcoSecKali](https://www.telco-sec.com/) for a pre-configured learning environment
@@ -70,6 +74,20 @@ This roadmap provides a structured approach to learning telecom security from fu
 - Container configurations for quick start
 
 ## 🛠️ Phase 2: SIM and Device Security (2 months)
+
+### SIM Card Technology and Security
+- Learn about SIM card technology, internals, and types of SIM cards used in mobile devices.
+- Understand GSM identifiers (ICCID, IMSI), authentication keys, and cryptographic mechanisms for secure communication.
+- Explore SIM card security, including common attacks and best practices for protection.
+
+**Resource:** [SIM Cards by Learn Telecom](https://sim-cards.learn-telecom.com/)
+
+### GSM Security and Hacking
+- Learn about GSM network architecture and common attack vectors (IMSI catchers, rogue BTS, SMS interception).
+- Build and operate your own GSM Pentest LAB for hands-on security testing.
+- Explore the security of GSM-based devices (alarms, trackers, smartwatches).
+
+**Resource:** [GSM Hacking by TelcoSec](https://gsm-hacking.telco-sec.com/)
 
 ### SIM Card Security
 - Study SIM architecture and file systems
@@ -120,6 +138,13 @@ This roadmap provides a structured approach to learning telecom security from fu
 
 ## 🌐 Phase 3: Network Infrastructure (3 months)
 
+### Diameter Protocol and Security
+- Learn about the Diameter protocol, a key technology for authentication, authorization, and accounting in modern telecom networks (3G/4G/5G).
+- Explore Diameter applications, nodes, AVPs (Attribute-Value Pairs), and interfaces (IMS, EPC, PCC, 3GPP systems).
+- Understand security considerations and best practices for protecting Diameter-based communications.
+
+**Resource:** [Learn Diameter](https://diameter.learn-telecom.com/)
+
 ### Radio Access Network Security
 - Study eNodeB/gNodeB security
 - Learn air interface security mechanisms
@@ -140,6 +165,8 @@ This roadmap provides a structured approach to learning telecom security from fu
 - Understand signaling security (SS7, Diameter, HTTP/2)
 - Learn about roaming security and interconnect
 - Explore virtualization security for telecom networks
+
+![RFS Security](images/RFSSecurity.png)
 
 **Tools:**
 - [SS7 Tools](https://www.telco-sec.com/) including SigPloit
@@ -174,10 +201,29 @@ This roadmap provides a structured approach to learning telecom security from fu
 - Study GTP and SIP/RTP for VoLTE
 - Learn SIM protocol analysis
 
+#### SS7 Stack and Security
+The Signaling System No. 7 (SS7) is a globally used set of telephony signaling protocols that enable call setup, routing, billing, and information exchange between telephone networks. The SS7 protocol suite is organized into a stack, structured in levels similar to the OSI model:
+
+1. **MTP Level 1 (Physical Layer):** Physical and electrical connection for the network, handling delivery of signaling messages.
+2. **MTP Level 2 (Link Layer):** Error checking and message sequence control, ensuring reliable transmission.
+3. **MTP Level 3 (Network Layer):** Message routing between exchanges and integrity of signaling message transfer.
+4. **SCCP (Signaling Connection Control Part):** Enhanced routing, supporting connection-oriented and connectionless services.
+5. **TCAP (Transaction Capabilities Application Part):** Non-circuit-related queries and transactions (e.g., number translation, roaming).
+6. **ISUP (ISDN User Part):** Setup and teardown of voice/data calls over PSTN.
+7. **MAP (Mobile Application Part):** Mobile network functions such as roaming, location updating, handovers, and SMS delivery.
+
+**Security Relevance:**
+- SS7 has several well-documented vulnerabilities, including subscriber information disclosure, network information disclosure, traffic interception, fraud, and denial of service.
+- Attackers can exploit SS7 to intercept calls and SMS, track location, and perform fraud.
+- Understanding the SS7 stack and its vulnerabilities is crucial for telecom security professionals.
+
+For a detailed overview and attack scenarios, see the [SS7 Stack Overview](https://ss7-attacks.telco-sec.com/).
+
 **Tools:**
 - [SS7 Protocol Analyzer](https://www.telco-sec.com/)
 - [Wireshark](https://www.telco-sec.com/) with telecom dissectors
 - [SIMtrace](https://www.telco-sec.com/) for SIM protocols
+- [Telecommunications Research Toolkit](https://github.com/TelcoSec/Telecommunications-Research-Toolkit) – open-source tools for telecom protocol analysis and research
 
 **Community Help Needed:**
 - Protocol analysis tutorials
@@ -208,6 +254,7 @@ This roadmap provides a structured approach to learning telecom security from fu
 **Tools:**
 - Development environment setups
 - [CI/CD pipeline](https://www.telco-sec.com/) for tool testing
+- [Telecommunications Research Toolkit](https://github.com/TelcoSec/Telecommunications-Research-Toolkit) – open-source tools for telecom protocol analysis and research
 
 **Community Help Needed:**
 - Tool development ideas
@@ -292,6 +339,7 @@ Rate your knowledge in each area to identify where to focus:
 - **Documentation**: [telco-sec.com/docs](https://www.telco-sec.com/)
 - **Tools**: [telco-sec.com/tools](https://www.telco-sec.com/)
 - **Community**: [telco-sec.com/community](https://www.telco-sec.com/)
+- **Telecommunications Research Toolkit**: [github.com/TelcoSec/Telecommunications-Research-Toolkit](https://github.com/TelcoSec/Telecommunications-Research-Toolkit) – open-source tools for telecom protocol analysis and research
 
 ## ⚠️ Responsible Disclosure
 
