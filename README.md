@@ -33,7 +33,7 @@ This roadmap provides a structured approach to learning telecom security from fu
 - Understand protocol stacks and signaling
 - Study the role of key components (SIM, baseband, RAN, core network)
 
-![Telecom Security Framework](images/Telecom Security Framework.jpg)
+![Telecom Security Framework](images/Telecom_Security_Framework.jpg)
 
 **Tools:**
 - [TelcoSecKali](https://www.telco-sec.com/) for a pre-configured learning environment
