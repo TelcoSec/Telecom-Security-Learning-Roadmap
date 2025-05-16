@@ -1,4 +1,4 @@
-![Project Cover](images/RFS.png)
+![Project Cover](images/RFS.jpg)
 
 # Telecom Security Learning Roadmap
 
